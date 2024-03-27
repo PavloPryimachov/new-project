@@ -1,1 +1,10 @@
-source text
+1. Create a repository (mkdir <dir_name>)
+2. Initialize Git-repository in a created before repository (git init)
+3. Create a new file README.md (echo "# new-project" >> README.md)
+4. Prepare a created file to commit (git add Readme.md)
+5. Commit a changes to repository with message "init" (git commit -m "init")
+6. Create a development branch named "development" and switch to it (git branch development; git checkout development)
+7. Add instructions to file README add prepare it to commit (vim README.md; git add README.md; git commit -m "dev")
+8. Merge Main branch with current one (git merge main)
+9. Check out a status (git status)
+10. Commit the changes (git commit -m "fin"; git remote add origin https://github.com/PavloPryimachov/new-project.git; git push -u origin main; git push -u origin development)
