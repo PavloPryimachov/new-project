@@ -7,4 +7,4 @@
 7. Add instructions to file README add prepare it to commit (vim README.md; git add README.md; git commit -m "dev")
 8. Merge Main branch with current one (git checkout main; git merge development)
 9. Check out a status (git status)
-10. Commit the changes (git remote add origin https://github.com/PavloPryimachov/new-project.git; git push -u origin main; git push -u origin development)
+10. Commit the changes (git remote add origin https://github.com/pavlopryimachov/new-project.git; git push -u origin main; git push -u origin development)
